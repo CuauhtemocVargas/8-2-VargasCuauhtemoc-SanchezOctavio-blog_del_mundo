@@ -15,7 +15,7 @@ article{
 }
 /*barra de navegación*/
 .resaltado{
-    color: yellow;
+    color: orchid;
 }
 nav>ul>li{
     list-style: none;
