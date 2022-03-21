@@ -22,6 +22,7 @@ nav>ul>li{
 }
 nav>ul>li>a{
     text-decoration: none;
+    color: #fff;
 }
 /*ilustraciones*/
 .ilustracion{
@@ -36,7 +37,15 @@ nav>ul>li>a{
 }
 /*footer del blog*/
 #footer_blog{
+    display: flex;
     margin: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    padding: 4rem 0rem 4rem 0rem;
+}
+#footer_blog :nth-of-type(2){
+    font-size: 0.9rem;
 }
 section{
     display: grid;
@@ -52,4 +61,53 @@ aside{
 }
 section>footer{
     grid-column: span 12;
+}
+nav{
+    grid-column: span 12;
+    font-size: 1.3rem;
+}
+aside>div:nth-of-type(even){
+    background-color: rgb(44, 43, 44);
+
+}
+nav>ul>li>a:hover{
+    text-decoration: underline;
+    color: greenyellow;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5rem; 
+}
+article>header>hgroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+article>header>hgroup>h2{
+    display: flex;
+    align-items: center;
+}
+article>header>hgroup>h2>img{
+    margin-right: 1rem;
+}
+aside>header>hgroup>h2{
+    text-align: center;
+    font-size: 1.3rem;
+}
+aside>div>img{
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+aside>div{
+    border-bottom: 1px dashed #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 180px;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
