@@ -54,9 +54,15 @@ section{
     gap: 3rem;
 
 }
-;
+section>header{
+    grid-column: span 12;
+}
+section>main{
+    grid-column: span 8;
+}
 
-aside{
+
+section>aside{
     grid-column: span 4;
 }
 section>footer{
@@ -107,7 +113,6 @@ aside>div{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 180px;
     border-radius: 15px;
     margin-bottom: 20px;
 }
