@@ -12,7 +12,17 @@ article{
 }
 #título_del_blog{
     text-align: center;
-    font-size: 3rem;
+    font-size: clamp(2rem, calc(1% + 2rem), 7rem);
+    margin-top: 7rem;
+    
+}
+@media (min-width: 1100px){
+    #título_del_blog{
+        text-align: center;
+        font-size: clamp(2rem, calc(1% + 2rem), 7rem);
+        margin-top: 3rem;
+    
+    }
 }
 /*barra de navegación*/
 .resaltado{
@@ -155,3 +165,4 @@ aside>div{
         flex-direction: column;
     }
 }
+
